@@ -4,6 +4,8 @@ Integrate adbutler.com ads into a GitBook.
 
 ### How to use it?
 
+Configure the plugin in your `book.json`:
+
 ```js
 {
     "plugins": ["adbutler"],
@@ -17,7 +19,7 @@ Integrate adbutler.com ads into a GitBook.
 }
 ```
 
-Then in your content, include ads using:
+Then in your markdown/asciidoc content, include ads using:
 
 ```md
 Ad with specific parameters:
