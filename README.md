@@ -1,2 +1,3 @@
-# gitbook-plugin-adbutler
-Integrate adbutler.com ads into a gitbook
+# Adbutler for GitBook
+
+Integrate adbutler.com ads into a GitBook.

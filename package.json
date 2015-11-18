@@ -1,0 +1,27 @@
+{
+    "name": "gitbook-plugin-adbutler",
+    "description": "Integrate adbutler.com ads into a gitbook",
+    "main": "index.js",
+    "version": "0.0.0",
+    "engines": {
+        "gitbook": ">=2.5.0"
+    },
+    "homepage": "https://github.com/GitbookIO/plugin-adbutler",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/GitbookIO/plugin-adbutler.git"
+    },
+    "license": "Apache-2.0",
+    "bugs": {
+        "url": "https://github.com/GitbookIO/plugin-adbutler/issues"
+    },
+    "gitbook": {
+        "properties": {
+            "key": {
+                "type": "string",
+                "title": "Adbutler key",
+                "required": true
+            }
+        }
+    }
+}
