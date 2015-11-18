@@ -19,8 +19,23 @@
         "properties": {
             "key": {
                 "type": "string",
-                "title": "Adbutler key",
+                "title": "Adbutler Key",
                 "required": true
+            },
+            "tagType": {
+                "type": "string",
+                "title": "Type of tags to use",
+                "default": "iframe",
+                "enum": ["iframe", "js"]
+            },
+            "defaultSize": {
+                "type": "string",
+                "title": "Default size value for ads",
+                "default": "728x90"
+            },
+            "defaultZone": {
+                "type": "string",
+                "title": "Default zone ID for ads"
             }
         }
     }
