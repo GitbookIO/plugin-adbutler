@@ -3,9 +3,6 @@ module.exports = {
         assets: "./book",
         js: [
             "plugin.js"
-        ],
-        css: [
-            "plugin.css"
         ]
     },
     blocks: {
